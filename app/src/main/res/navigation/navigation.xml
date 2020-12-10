@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/startFragment"
-        android:name="com.example.anagram.StartFragment"
+        android:name="com.example.escapeRoom.StartFragment"
         android:label="fragment_start"
         tools:layout="@layout/fragment_start">
         <action
@@ -16,7 +16,7 @@
     </fragment>
     <fragment
         android:id="@+id/anagramFragment"
-        android:name="com.example.anagram.AnagramFragment"
+        android:name="com.example.escapeRoom.AnagramFragment"
         android:label="fragment_anagram"
         tools:layout="@layout/fragment_anagram">
         <action
@@ -25,7 +25,7 @@
     </fragment>
     <fragment
         android:id="@+id/nextRoomFragment"
-        android:name="com.example.anagram.NextRoomFragment"
+        android:name="com.example.escapeRoom.NextRoomFragment"
         android:label="fragment_next_room"
         tools:layout="@layout/fragment_next_room" />
 </navigation>

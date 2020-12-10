@@ -1,4 +1,4 @@
-package com.example.anagram
+package com.example.escapeRoom
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import android.widget.*
 import androidx.databinding.DataBindingUtil
 import androidx.navigation.findNavController
+import com.example.anagram.R
 import com.example.anagram.databinding.FragmentNextRoomBinding
 import com.example.anagram.databinding.FragmentStartBinding
 

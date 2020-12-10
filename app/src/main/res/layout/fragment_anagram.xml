@@ -2,12 +2,12 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".AnagramFragment">
+    tools:context="com.example.escapeRoom.AnagramFragment">
 
     <data>
         <variable
             name="game"
-            type="com.example.anagram.AnagramFragment" />
+            type="com.example.escapeRoom.AnagramFragment" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
