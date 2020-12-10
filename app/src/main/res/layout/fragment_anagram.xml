@@ -5,7 +5,6 @@
     tools:context=".AnagramFragment">
 
     <data>
-
         <variable
             name="game"
             type="com.example.anagram.AnagramFragment" />
@@ -76,7 +75,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/cabin_sketch_bold"
-            android:text="@={game.scrambledWord}"
+            android:text="@{game.scrambledWord}"
             android:textAlignment="center"
             android:textColor="@color/white"
             android:textSize="50sp"

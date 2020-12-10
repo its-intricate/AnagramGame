@@ -4,6 +4,8 @@ import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
+import android.view.View.INVISIBLE
+import android.view.View.VISIBLE
 import android.view.ViewGroup
 import android.widget.*
 import androidx.navigation.findNavController
@@ -91,16 +93,16 @@ class AnagramFragment : Fragment() {
      private fun unlock(binding: FragmentAnagramBinding) {
          when (count) {
              1 -> {
-                 binding.lock1.visibility = View.INVISIBLE
-                 binding.unlock1.visibility = View.VISIBLE
+                 binding.lock1.visibility = INVISIBLE
+                 binding.unlock1.visibility = VISIBLE
              }
              2 -> {
-                 binding.lock2.visibility = View.INVISIBLE
-                 binding.unlock2.visibility = View.VISIBLE
+                 binding.lock2.visibility = INVISIBLE
+                 binding.unlock2.visibility = VISIBLE
              }
              3 -> {
-                 binding.lock3.visibility = View.INVISIBLE
-                 binding.unlock3.visibility = View.VISIBLE
+                 binding.lock3.visibility = INVISIBLE
+                 binding.unlock3.visibility = VISIBLE
              }
          }
     }
